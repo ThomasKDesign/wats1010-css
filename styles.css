@@ -1,6 +1,48 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+  background: url('images/sand.jpg');
+  background-position: bottom right;
+  background-repeat: repeat-x;
+  background-color: lightyellow
+  font-family: serif;
 }
+header.page-header {
+  background-color: lightblue;
+  border: solid ipx black;
+  padding: 2rem;
+}
+
+.page-header h1 {
+  margin-bottom: 0;
+}
+.page-header p {
+  margin-top: 0;
+}
+}
+  aside.more-info img {
+    width: 170px;
+    height: auto;   
+}
+
+ aside.more-info {
+ background: lightsteelblue
+ 
+}
+hi, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  
+}
+
+
+.poem {
+  list-style-type: none;
+  background: lightgreen
+}
+
+.poem {
+  font-size: large;
+  line-height: 1.5;
+}
+
